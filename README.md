@@ -1,4 +1,4 @@
-#demo:
+* demo:
 ![demo1](https://github.com/jinxqy/vue-car-plate/blob/master/static/9eead22f9fb2410eed3b1f4d56ff4cc.jpg)
 
 ![图片说明2](https://github.com/jinxqy/vue-car-plate/blob/master/static/1eab40a3c659931445bde7b2ff80105.jpg)
