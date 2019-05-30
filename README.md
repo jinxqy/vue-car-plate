@@ -1,27 +1,28 @@
-# vue-components
+![demo1](https://github.com/jinxqy/vue-car-plate/blob/master/static/9eead22f9fb2410eed3b1f4d56ff4cc.jpg)
 
-> A Vue.js project
+![图片说明2](https://github.com/jinxqy/vue-car-plate/blob/master/static/1eab40a3c659931445bde7b2ff80105.jpg)
 
-## Build Setup
+#clone
+* git clone https://github.com/jinxqy/vue-car-plate.git
 
-``` bash
-# install dependencies
-npm install
+#安装依赖
 
-# serve with hot reload at localhost:8080
-npm run dev
+* npm install
 
-# build for production with minification
-npm run build
+#启动
 
-# build for production and view the bundle analyzer report
-npm run build --report
+* npm run dev
 
-# run e2e tests
-npm run e2e
+#引入组件
 
-# run all tests
-npm test
-```
+* import carPlate from "@/components/carPlate";
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+#可传参数
+
+* `<car-plate :getPlateNum="getNum" :showCarPlate="showCarPlate" :showLayer="showLayer"/>`
+
+getPlateNum:获取用户输入的车牌号
+
+showCarPlate: 是否显示车牌号输入控件 true为显示 false隐藏
+
+showLayer: 是否显示遮罩层
