@@ -1,7 +1,7 @@
 <template>
   <div>
-      <car-plate :getPlateNum="getNum" :closeCarPlate="closeCarPlate" :showCarPlate="showCarPlate" :showLayer="showLayer"/>
-      <button @click="change">ÇÐ»»</button>
+      <car-plate :getPlateNum="getNum" :showCarPlate="showCarPlate" :showLayer="showLayer"/>
+      <button @click="change">switch</button>
   </div>
 </template>
 <script>
