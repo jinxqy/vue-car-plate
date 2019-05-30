@@ -56,10 +56,6 @@ export default {
       default: false
     }
   },
-  mounted(){
-    //获取遮罩层的长和宽
-    getLayerWH();
-  },
   computed: {
     isShow() {
       return this.showCarPlate;
